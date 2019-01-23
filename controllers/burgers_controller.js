@@ -6,7 +6,7 @@ var router = express.Router();
 var burger = require("../models/burger.js");
 
 // Create all our routes and set up logic within those routes where required.
-router.get("/index", function(req, res) {
+router.get("/", function(req, res) {
   burger.all(function(data) {
     var hbsObject = {
       burgers: data
@@ -16,7 +16,7 @@ router.get("/index", function(req, res) {
   });
 });
 
-router.post("/api/burgers", function(req, res) {
+router.post("/", function(req, res) {
   burger.create([
     "name"
   ], [
