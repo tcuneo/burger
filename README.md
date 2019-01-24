@@ -10,4 +10,4 @@ Eat-Da-Burger! is a restaurant app that lets users input the names of burgers th
 * body-parser
 
 # Heroku Link
-https://burger-tc.herokuapp.com/
+https://burger-tc.herokuapp.com/index
